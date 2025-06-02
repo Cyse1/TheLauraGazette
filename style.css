@@ -47,6 +47,7 @@ button[type="submit"] {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1000;
 }
 
 .nav-content{
@@ -123,7 +124,7 @@ button[type="submit"] {
 
 
 .about{
-  background: url('./assets/newsplash.png') no-repeat center left/contain;
+ background: url('./assets/newsplash.png') no-repeat center left/cover;
   padding: 70px 0 70px;
 }
 
@@ -143,11 +144,13 @@ button[type="submit"] {
 }
 
 .about-flex{
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 7rem;
 }
+
 
 .left-side img{
   width:550px;
