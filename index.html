@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>The Laura Gazette</title>
+</head>
+
+<body>
+
+
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <div class="nav-content">
+        <a href="#home"><img src="./assets/Logo.png" alt="The Laura Gazette Logo"></a>
+        <ul class="nav-content-right">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#signup">Sign Up</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="content-flex">
+        <div class="left-content">
+          <p class="welcome">Welcome to</p>
+          <h1>The Laura Gazette</h1>
+          <p>A family newsletter where old precious memories meet new precious updates</p>
+          <div class="btn-group">
+            <a class="btn1" href="#about">Tell Me More</a>
+            <a class="btn2" href="#signup">Count Me In &rarr;</a>
+          </div>
+        </div>
+        <div class="right-content">
+          <img src="./assets/HeroImg.png" alt="Image of Grandma">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h3>Inside The Laura Gazette</h3>
+      <h5>What You Can Expect In Your Gazette</h5>
+      <div class="about-flex">
+        <div class="left-side">
+          <img src="./assets/CollageV3.png" alt="Collage of Photos">
+        </div>
+        <div class="right-side">
+          <div class="align">
+            <img src="./assets/num1.png" alt="">
+            <h4>Cherished Memories & Photos</h4>
+          </div>
+          <p>We lovingly revisit treasured moments and timeless photos that remind us of the bonds we share. These
+            stories keep Grandma Laura’s spirit alive and celebrate the rich history that shapes who we are as a family.
+          </p>
+          <div class="align">
+            <img src="./assets/num2.png" alt="">
+            <h4>Family News & Celebrations</h4>
+          </div>
+          <p>Keeping you up to date on family gatherings, birthdays, new family members, and special events that bring
+            us together. It’s our way to celebrate milestones and share joyful moments, no matter where we all are.</p>
+          <div class="align">
+            <img src="./assets/num3.png" alt="">
+            <h4>Family Voices</h4>
+          </div>
+          <p>Every voice matters here. This section invites family members to share their heartfelt stories,
+            reflections, and creative expressions - weaving a tapestry of love, wisdom, and connection that strengthens
+            our family ties.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="signup" id="signup">
+    <div class="container">
+    <h3>Stay In The Loop</h3>
+    <h5>Get Your Gazette</h5>
+    <div class="form-flex">
+      <form class="form" action="" method="post">
+        <div class="form-group">
+          <label for="first_name">First Name</label>
+          <input type="text" id="first_name" name="first_name"  required>
+        </div>
+        <div class="form-group">
+          <label for="last_name">Last Name</label>
+          <input type="text" id="last_name" name="fields[last_name]"  required>
+        </div>
+        <div class="form-group">
+          <label for="birthday">Birthday</label>
+          <input type="date" id="birthday" name="fields[birthday]" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email_address"  required>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="right-side-form">
+        <img src="./assets/HeroImg.png" alt="">
+      </div>
+    </div>
+    </div>
+  </section>
+  <footer class="footer" id="footer">
+    <div class="container">
+        <p>© 2025 The Laura Gazette. All rights reserved.</p>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
